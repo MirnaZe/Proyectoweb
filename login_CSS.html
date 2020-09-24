@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="ValidaCuenta.js" ></script>
+</head>
+<meta charset="utf-8" />
+<title> My BBlog</title>
+<style>
+body {
+	color: midnightblue ; background-color: #E9C8F9   ; font-family: Times, Times New Roman, serif; font-size: 16px;
+}
+
+.container {
+  position: middle;
+  text-align: center;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: pink;
+}
+
+img {
+  border: 1px solid #fa8072;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px #f08080;
+}
+
+.btn {
+  background-color: #fa8072;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  background-color: #f08080;
+}
+  
+</style>
+
+
+
+
+
+  <body>
+  <center>
+  <form class="container">
+<center><H1>
+   Bienvenido a tu Blog<br></H1></center>
+<center>
+Mail:<input type=“correo” id="correo"/><br><br>
+password:<input type="password" id="pasw"><br><br>
+<input type="checkbox" onclick="myFunction()">Show Password
+<script>
+function myFunction() {
+  var x = document.getElementById("pasw");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+</center>
+
+
+<center>
+	<form action="index_CSS.html">
+	<input type="button"  id="bot" name="bot" value="Login" /><br>
+	</form>
+	¿Aún no tienes cuenta?Que esperas.<br>
+	<form action="creacuenta.html">
+	<button type="submit" class="btn">Crea cuenta</button>
+	</form>
+	
+</center>
+</form>
+</center>
+<center><A HREF="index_CSS.html"><img SRC = "Joymini.png" class="img" style="width:150px"></A></center>
+
+  </body>
+</html>

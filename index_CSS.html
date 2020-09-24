@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Index</title>
+<style>
+body {
+color:midnightblue;
+background: linear-gradient(to bottom,White, MediumPurple);
+font-family: Georgia, Cambria, serif;
+font-size: 16px;
+}
+
+h1 {
+color:#E9C8F7 ; 
+font-family: Verdana, Calibri, sans-serif; 
+font-size:32px;
+font-style:italic;
+text-align: center;
+}
+
+h2 {
+color: #4B0082; 
+text-align: center;
+font-family: Verdana, Calibri, sans-serif; 
+font-size: 28px;
+text-shadow: 2px 2px plum;
+}
+
+span {
+color:DeepPink;
+}
+
+strong {
+font-size: 20px;
+}
+
+B{
+font-style:bold;
+color:midnightblue ;
+font-family: Garamnod; 
+text-align: left;
+
+} 
+em {
+ color:midnightblue; 
+border-radius: 10px;
+  background-color:LightPink;
+  animation-name:blinkingText;
+  animation-duration:0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+
+@keyframes blinkingText{
+  from {background-color: Pink;}
+  to {background-color: HotPink;}
+}
+
+em2 {
+color:midnightblue;
+border-radius: 10px; 
+background-color:LightSkyBlue;
+animation-name:blinkingText2;
+animation-duration:0.5s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+
+@keyframes blinkingText2{
+  from {background-color:LightSkyBlue;}
+  to {background-color:CornflowerBlue;}
+}
+
+em3 {
+color:midnightblue; 
+border-radius: 10px;
+background-color:LightSalmon;
+animation-name:blinkingText3;
+animation-duration:0.5s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+
+
+@keyframes blinkingText3{
+  from {background-color:LightSalmon;}
+  to {background-color:Coral;}
+}
+img{
+  float:left;
+  margin-right: auto;
+  max-width:30%;
+}
+
+a:link {
+  color:midnightblue;
+}
+a:visited {
+  color: LightSteelBlue;
+}
+a:hover {
+  color: White;
+}
+a:active {
+  color: Plum;
+}
+
+ul {
+  text-align: center;
+list-style-type:none;
+}
+ol {
+ text-align: center;
+list-style-image: url('heartIcon.png');
+}
+
+
+hr {
+  border-top: 10px dotted white;
+animation-name:blinking;
+animation-duration:1s;
+animation-iteration-count: infinite;
+
+}
+@keyframes blinking{
+  from {border-top: 10px dotted white;}
+  to {border-top: 10px dotted Goldenrod;}
+}
+
+.container {
+  position: relative;
+
+}
+.image {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(50%, 400%);
+}
+
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(500%, 400%);
+  //top: 400px;
+  //left: 50px;
+}
+
+.middle3 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(1000%, 400%);
+  //top: 800px;
+  //left: 50px;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+
+}
+
+.container:hover .middle {
+  opacity: 1;
+
+}
+
+.container:hover .middle2 {
+  opacity: 1;
+
+}
+.container:hover .middle3 {
+  opacity: 1;
+  
+
+}
+.text {
+  border-radius: 10px;
+  background:linear-gradient(45deg, #f3ec78, MediumVioletRed);
+  color: white;
+  font-size: 16px;
+  padding: 1px 16px;
+
+}
+
+</style>
+
+
+
+
+
+
+</head>
+<body>
+
+<h1>Proyecto final Blog "MiniMkup"</h1>
+
+<A NAME="top"><h2>Bienvenidos Makeup Lovers</h2></A>
+
+
+<img SRC = "Yo.jpg">
+<br>
+
+<h2><em><a href="login_CSS.html" target="_blank">Entra al mundo MiniMkup</a></em></h2>
+<h2><em2><a href="creacuenta.html" target="_blank">¿No tienes cuenta? REGÍSTRATE </a></em2></h2>
+<h2><em3><a href="https://colourpop.com/" target="_blank">Un lugar para comprar maqu&iacute;llaje</a></em3></h2>
+<br><br><br><br><br>
+
+
+<p>
+Esta es una página única para <strong>TI</strong> amante del maquillaje. Registrate para tener tutoriales y consejos personalizados.
+</p>
+<br>
+
+<p>
+¿Tienes dudas de maquillajes qué viste en instagram? <strong> Yo te ayudo</strong> servicio especializado todo el año.
+
+</p>
+
+<hr>
+<h2>Los favoritos del mes</h2>
+
+<ol>
+<li> <B>Natasha Denona</B><I> Bronze Eyeshadow Pallete</I> 
+<li> <B>Charlotte Tilbury</B><I> Luxury Eyeshadow Pallette</I>
+<li> <B>Fenty beauty by Rihanna</B><I> Match Stix Trio</I>
+<li> <B>Dior</B><I> Lip Glow Balm & Lip</I></center>
+<li> <B>Urban Decay</B><I> Naked Ultraviolet Eyeshadow</I>
+</ol><br>
+
+<br><br><br>
+<hr>
+<br><br>
+<h2>Showouts para tu cuenta</h2>
+
+
+  <div class="container">
+<B>
+    <a href="https://www.instagram.com/rosymcmichael/" target="_blank">
+      <img src="Rosyinsta.png" class="image" style="max-width:100%" />
+      <div class="middle">
+        <div class="text">@rosymcmichael</div>
+      </div>
+    </a>
+</B>
+  </div>
+
+  <div class="container">
+<B>
+    <a href="https://www.instagram.com/lenkalul/" target="_blank">
+      <img src="Lenkauinsta.png" class="image" style="max-width:100%" />
+      <div class="middle2">
+        <div class="text">@lenkalul</div>
+      </div>
+    </a>
+</B>
+  </div>
+
+
+<div class="container">
+<B>
+    <a href="https://www.instagram.com/lenkalul/" target="_blank">
+      <img  src="Paminsta.png" class="image" style="max-width:100%" />
+      <div class="middle3">
+        <div class="text">@Pamst</div>
+      </div>
+    </a>
+</B>
+  </div>
+
+<br>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

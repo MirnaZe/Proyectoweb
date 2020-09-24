@@ -1,0 +1,117 @@
+De Livier Andrade para todos:  07:32 PM
+que producto de postman usamos?
+De Luis Mille para todos:  07:32 PM
+postman
+De Rodrigo Cabrera Pliego para todos:  07:33 PM
+https://www.postman.com/
+https://www.postman.com/downloads/
+De Livier Andrade para todos:  07:43 PM
+denle sign in with google y usen la del tec
+y ya no te pide verificacion
+De Rodrigo Cabrera Pliego para todos:  07:59 PM
+https://odphl0sbqd.execute-api.us-east-1.amazonaws.com/default/creacuenta
+'username': event['mail'],
+            'password': encrypt_string(event['password']),
+            'nombre': event['nombre'],
+            'trato':event['trato'],
+            'apPaterno':event['apPaterno'],
+            'apMaterno':event['apMaterno'],
+            'telefono':event['telefono']
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+$(document).ready(function(){ 
+  $("form").submit(function(){
+    alert("Submitted");
+  });
+  $("#bot").click(function(){
+    var SendInfo={"mail":"rod@mail.com","password":"abc","nombre":"tra","trato":"mss","apPaterno":"Cab","apMaterno":"Pli","telefono":22222};
+    $.ajax({
+      
+      type: 'POST',
+      url: 'https://odphl0sbqd.execute-api.us-east-1.amazonaws.com/default/creacuenta',
+      data: JSON.stringify(SendInfo),
+      contentType: "application/json; charset=utf-8",
+      traditional: true,
+      success: function (data) {
+        console.log("Response: "+data['result']);
+      }
+  }); 
+  });
+});
+De Rodrigo Cabrera Pliego para todos:  08:02 PM
+https://odphl0sbqd.execute-api.us-east-1.amazonaws.com/default/creacuenta
+{
+    "mail": "test_tec@hotmail.com",
+            "password": "12345",
+            "nombre": "RC",
+            "trato":"mr",
+            "apPaterno":"cabrera",
+            "apMaterno":"Pliego",
+            "telefono":"555555"
+}
+De Rodrigo Cabrera Pliego para todos:  08:13 PM
+https://odphl0sbqd.execute-api.us-east-1.amazonaws.com/default/validacuenta
+https://odphl0sbqd.execute-api.us-east-1.amazonaws.com/default/validacuenta
+{
+  "mail": "rcabrera@tec.mx",
+  "password": "hola"
+}
+De Livier Andrade para todos:  08:14 PM
+a mi si me sale fail lol
+De Rodrigo Cabrera Pliego para todos:  08:41 PM
+https://addons.mozilla.org/es/firefox/addon/cors-everywhere/
+De Rodrigo Cabrera Pliego para todos:  08:51 PM
+https://www.dropbox.com/sh/1m7tkdgm1a707bs/AACH-afg7x2AcwsvwJHQfUyoa?dl=0
+De Rodrigo Cabrera Pliego para todos:  09:02 PM
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/CreaCuenta.js" ></script>
+De Livier Andrade para todos:  09:10 PM
+en donde iba este codigo ^^^?
+De Roberto Téllez A01374866 para todos:  09:11 PM
+Según yo, en el html de crear cuenta
+Y cambia el atributo src al path donde tengas tu archivo .js
+De Rodrigo Cabrera Pliego para todos:  09:13 PM
+Si es correcto entre <head>
+Está en mi archivo creacuenta.html
+De Rodrigo Cabrera Pliego para todos:  09:19 PM
+miapi.com/producto/1
+De Rodrigo Cabrera Pliego para todos:  09:30 PM
+success: function (data) {
+        console.log("Response: "+data['result']);
+        if(data['result']=='success'){
+          location.replace("index.html")
+        }
+      }
+De Rodrigo Cabrera Pliego para todos:  09:38 PM
+https://addons.mozilla.org/es/firefox/addon/cors-everywhere/
+if(data['result']=='success'){
+          location.replace("index.html")
+        }
+De Rodrigo Cabrera Pliego para todos:  09:56 PM
+"mail": "test_tec@hotmail.com",
+            "password": "12345",
+            "nombre": "RC",
+            "trato":"mr",
+            "apPaterno":"cabrera",
+            "apMaterno":"Pliego",
+            "telefono":"555555"
+De Óscar Zúñiga Lara para todos:  09:58 PM
+Uncaught ReferenceError: $ is not defined
+De Rodrigo Cabrera Pliego para todos:  10:05 PM
+apPaterno
+De Aaron Villanueva para todos:  10:05 PM
+con button ya no aparece la alerta de form, esta bien eso?
+De Rodrigo Cabrera Pliego para todos:  10:08 PM
+var e = document.getElementById("ddlViewBy");
+var strUser = e.options[e.selectedIndex].value;
+De Jesús Jahir Páez Núñez para todos:  10:10 PM
+Pido después de Sharon :)
+De mí para todos:  10:10 PM
+me ganaaste
+yo pos Jesús
+De Roberto Téllez A01374866 para todos:  10:22 PM
+Io nomás estoy de bystander/eavesdropper :P xd
+Por si se menciona algo relevante jeje
+:0 nunca creí que diría esto sobre un light theme, pero ese light theme está muy cool..!
+De Rodrigo Cabrera Pliego para todos:  10:30 PM
+https://addons.mozilla.org/es/firefox/addon/cors-everywhere/
+
